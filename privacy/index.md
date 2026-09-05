@@ -69,14 +69,18 @@ from your device or sends anything from it.
 
 ## Purchases
 
-Pickify offers a free 3-day trial and a one-time purchase that unlocks the app
-permanently. Both are processed entirely by **Apple** through the App Store. We
-never receive your payment details, card number, or billing address. Pickify only
-asks Apple whether the current Apple Account owns the trial or the unlock, and
-when the trial was started, so it knows whether to unlock the app; that answer
-comes from Apple and is never sent anywhere by us. Nothing renews and nothing is
-charged automatically. Purchases are governed by the
-[Apple Media Services Terms and Conditions](https://www.apple.com/legal/internet-services/itunes/).
+Pickify is a paid app. It is locked when you first open it, and the first screen
+offers a free 3-day trial; after the trial, a single one-time purchase unlocks
+the app permanently. Both the trial and the unlock are processed entirely by
+**Apple** through the App Store. We never receive your payment details, card
+number, or billing address. Pickify only asks Apple whether the current Apple
+Account owns the trial or the unlock, and when the trial was started, so it knows
+whether to unlock the app; that answer comes from Apple and is never sent
+anywhere by us. Nothing renews and nothing is charged automatically. Purchases
+are governed by the
+[Apple Media Services Terms and Conditions](https://www.apple.com/legal/internet-services/itunes/),
+and use of the app itself by Apple's
+[Standard End User License Agreement](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/).
 
 ## Prize cases
 
