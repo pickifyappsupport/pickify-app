@@ -20,12 +20,23 @@ include:
 
 ## Frequently asked questions
 
+### Why is Pickify locked when I first open it?
+
+Because Pickify is a paid app, and the free trial is how you get in. The first
+screen on a new install is the unlock screen, and it is the front door rather
+than an advert you can dismiss — there is no cut-down free version behind it.
+
+Tap **Start 3-Day Free Trial** and the whole app opens straight away: every mode,
+every setting, every prize case, nothing held back and nothing to pay. If you
+have already bought Pickify, or already used the trial on another device, tap
+**Restore Purchase** on that same screen instead.
+
 ### How much does Pickify cost?
 
 Pickify is a paid app with a free trial in front of it. You get **3 days of the
 complete app, free** — every mode, every setting, every prize case, nothing held
-back. When those three days are up, Pickify locks until you unlock it with a
-**single one-time payment**. That payment is the whole price: there is no
+back. When those three days are up, Pickify locks again until you unlock it with
+a **single one-time payment**. That payment is the whole price: there is no
 subscription, no monthly fee, no second purchase, and nothing inside the app
 costs extra afterwards.
 
@@ -199,6 +210,13 @@ contacts.
 Please email **pickify.app.support@gmail.com**. Bug reports with the details
 listed under [Contact](#contact) above are the most useful, and feature requests
 are genuinely read.
+
+## Terms of Use
+
+Pickify is licensed under Apple's standard licence agreement for apps, the
+[Apple Standard End User License Agreement](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/).
+The trial and the unlock are sold by Apple and are additionally governed by the
+[Apple Media Services Terms and Conditions](https://www.apple.com/legal/internet-services/itunes/).
 
 ## Privacy Policy
 
