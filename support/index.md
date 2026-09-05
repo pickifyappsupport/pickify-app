@@ -1,6 +1,6 @@
 # Pickify Support
 
-Pickify is a private, offline randomizer for iPhone: dice, a coin, cards, a prize
+Pickify is a private, offline randomizer for iPhone and iPad: dice, a coin, cards, a prize
 wheel, roulette, straws, and a dozen other ways to pick a name or settle a
 decision. It has no account, no server, and makes no network requests.
 
@@ -20,26 +20,35 @@ include:
 
 ## Frequently asked questions
 
-### I paid for Premium but my features are locked
+### How much does Pickify cost?
 
-Open Pickify's settings and tap **Restore Purchase**. Pickify Premium is a
-one-time purchase tied to your Apple Account, so it restores on any device signed
+Pickify is a paid app with a free trial in front of it. You get **3 days of the
+complete app, free** — every mode, every setting, every prize case, nothing held
+back. When those three days are up, Pickify locks until you unlock it with a
+**single one-time payment**. That payment is the whole price: there is no
+subscription, no monthly fee, no second purchase, and nothing inside the app
+costs extra afterwards.
+
+### Will I be charged automatically when the trial ends?
+
+No. Nothing can charge you automatically, because there is no subscription to
+renew — the trial is not a billing arrangement, and there is nothing to cancel.
+When the three days are up the app simply asks whether you want to unlock it, and
+if you never tap Unlock you are never charged a penny.
+
+### I paid but Pickify is still locked
+
+Tap **Restore Purchase** — it is on the unlock screen, and in Pickify's settings.
+The unlock is tied to your Apple Account, so it comes back on any device signed
 in with the same account, at no extra cost.
 
 If restoring does not work, make sure you are signed into the App Store with the
-same Apple Account you used to buy, then email us.
+Apple Account you used to buy, then email us.
 
-### What does Pickify Premium include?
+### I started the trial and reinstalled — can I get another 3 days?
 
-A single one-time payment — no subscription — that unlocks:
-
-- **Premium themes** — the full set of skins for every mode
-- **Unlimited spins** — pick as many times as you like
-- **Exclusive modes** — special modes and content
-- **Ad-free** — though Pickify has never shown an advert to anyone
-
-There are no monthly fees and no hidden charges. If a free trial is offered, you
-can cancel any time before it ends and you will not be charged.
+No. The trial is recorded against your Apple Account rather than on the device,
+so deleting and reinstalling brings back the same trial rather than a new one.
 
 ### How do I get a refund?
 
@@ -148,7 +157,7 @@ won and what is still locked.
 ### I reinstalled the app and my prizes are gone
 
 Unlocked prizes are stored on your device only — there is no account and no
-iCloud sync — so deleting the app removes them. Premium itself is tied to your
+iCloud sync — so deleting the app removes them. The unlock itself is tied to your
 Apple Account and comes back with **Restore Purchase**.
 
 ## Settings and accessibility
