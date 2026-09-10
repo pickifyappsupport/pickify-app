@@ -1,8 +1,12 @@
 # Pickify Support
 
-Pickify is a private, offline randomizer for iPhone and iPad: dice, a coin, cards, a prize
-wheel, roulette, straws, and a dozen other ways to pick a name or settle a
-decision. It has no account, no server, and makes no network requests.
+**Last updated:** 10 September 2026
+
+Pickify is a private randomizer for iPhone and iPad with 19 ways to pick a name,
+split a team, play a quick game, or settle a decision. Its games run on your
+device, with no Pickify account, developer-operated server, advertising,
+analytics, or tracking. An internet connection is used only when Apple services
+are needed for the one-time unlock, and when you choose to open an external link.
 
 ## Contact
 
@@ -20,32 +24,52 @@ include:
 
 ## Frequently asked questions
 
-### Why is Pickify locked when I first open it?
+### What is included in Pickify?
 
-Because Pickify is a paid app, and the free trial is how you get in. The first
-screen on a new install is the unlock screen, and it is the front door rather
-than an advert you can dismiss — there is no cut-down free version behind it.
+Pickify includes **19 modes**: Dice, Coin, Cards, Wheel, Arrow, Roulette,
+Shortest Straw, Escape, Knockout, Finger Picker, Select Card, Chomp, Twister,
+Case Opening, 8 Ball, Team Shuffle, Quick Generator, Big Catch, and
+Glass Bridge.
 
-Tap **Start 3-Day Free Trial** and the whole app opens straight away: every mode,
-every setting, every prize case, nothing held back and nothing to pay. If you
-have already bought Pickify, or already used the trial on another device, tap
-**Restore Purchase** on that same screen instead.
+Tap **Surprise Me** to open one at random. To rearrange the home screen, tap the
+sliders button, then drag the mode cards into the order you want. Your order is
+saved on the device.
+
+### Which devices and orientations are supported?
+
+Pickify requires iOS or iPadOS 18 or later. It works in portrait and either
+landscape orientation on iPhone, and in all four orientations on iPad.
+
+### Do I have to pay before I can try Pickify?
+
+No. The first **3 days are free and start on their own** — there is nothing to
+sign up for, nothing to tap, and no card involved. Install Pickify and the whole
+app is open: every mode, every setting, every prize case, nothing held back.
+
+When those three days are up, Pickify shows an unlock screen. That screen is the
+front door rather than an advert you can dismiss — there is no cut-down free
+version behind it — and the app opens again as soon as you unlock it. If you have
+already bought Pickify, tap **Restore Purchase** on that same screen instead.
 
 ### How much does Pickify cost?
 
-Pickify is a paid app with a free trial in front of it. You get **3 days of the
-complete app, free** — every mode, every setting, every prize case, nothing held
-back. When those three days are up, Pickify locks again until you unlock it with
-a **single one-time payment**. That payment is the whole price: there is no
-subscription, no monthly fee, no second purchase, and nothing inside the app
-costs extra afterwards.
+Pickify is free to download, and it opens completely for three days. After those
+days it takes a **single one-time in-app purchase** to unlock, and that payment is
+the whole price: there is no subscription, no monthly fee, no second purchase, and
+nothing inside the app costs extra afterwards.
 
-### Will I be charged automatically when the trial ends?
+### Will I be charged automatically when the free days end?
 
-No. Nothing can charge you automatically, because there is no subscription to
-renew — the trial is not a billing arrangement, and there is nothing to cancel.
-When the three days are up the app simply asks whether you want to unlock it, and
-if you never tap Unlock you are never charged a penny.
+No. Nothing can charge you automatically, because there is no subscription and
+nothing was ever set up to bill — the three free days are not a billing
+arrangement, and there is nothing to cancel. When they are up the app simply asks
+whether you want to unlock it, and if you never tap Unlock you are never charged
+a penny.
+
+### How do I know how long I have left?
+
+Tap the crown button at the top right of the home screen. The unlock screen shows
+the days you have left and what the one-time unlock costs in your own currency.
 
 ### I paid but Pickify is still locked
 
@@ -56,10 +80,12 @@ in with the same account, at no extra cost.
 If restoring does not work, make sure you are signed into the App Store with the
 Apple Account you used to buy, then email us.
 
-### I started the trial and reinstalled — can I get another 3 days?
+### I reinstalled Pickify — do I get another 3 days?
 
-No. The trial is recorded against your Apple Account rather than on the device,
-so deleting and reinstalling brings back the same trial rather than a new one.
+No. The three days are counted from the date your Apple Account first downloaded
+Pickify, which Apple keeps, rather than from a date stored on the device — so
+deleting and reinstalling picks the same three days back up rather than starting
+new ones.
 
 ### How do I get a refund?
 
@@ -69,30 +95,34 @@ Request one at [reportaproblem.apple.com](https://reportaproblem.apple.com).
 ### Is Pickify private?
 
 Yes. Pickify has no server, no analytics, no ads, and no third-party SDKs. It
-makes no network requests at all. Your lists, settings, and unlocked prizes stay
-on your device, and there is no sign-in and no cloud. See the
-[Privacy Policy](../privacy/) for full detail.
+does not send your lists, results, settings, or prize progress anywhere. Its
+games work offline. StoreKit communicates with Apple to show the local price,
+check the one-time unlock and establish the three free days; Pickify does not
+receive your Apple Account or payment details. See the [Privacy Policy](../privacy/)
+for full detail.
 
 ### Is Pickify suitable for children and classrooms?
 
-That is who it is drawn for. It is rated 4+, contains no chat, no sharing, no
-social features, and no advertising. The roulette mode is a randomizer with no
-wagering, betting, or currency of any kind.
+Yes. Pickify is rated 4+ and designed to be family-friendly: no chat, no sharing,
+no social features, and no advertising. It is a general-audience app rather than
+one directed at children, and it works just as well with a group of any age. The
+roulette mode is a randomizer with no wagering, betting, or currency of any kind.
 
 ## Picking and fairness
 
 ### Are the results really random?
 
-Yes. Every outcome is drawn first from the system random number generator, and
-the animation is then solved to land on it — the tumble is presentation, not the
-source of the result. That keeps the distribution provably uniform instead of
-making it a property of a physics solver.
+Yes. In direct-draw modes such as Dice, Coin, Cards, Wheel, Roulette, and 8 Ball,
+the result comes from the system random number generator. The animation then
+shows that result; it does not secretly choose a different one.
 
-Two modes are the deliberate exception: **Escape** (the draining ring of marbles)
-and **Knockout** (the ball loose in the box of blocks) are played out rather than
-drawn, and the winner is read off the simulation. Their fairness is therefore
-measured rather than stated — thousands of simulated rounds at every player count
-come out flat to within sampling noise.
+The interactive games use randomness in ways that match their rules. **Big
+Catch** shuffles the hidden fish values before anyone picks. **Glass Bridge**
+shuffles both the player order and the hidden safe path. **Escape** and
+**Knockout** play out their on-screen simulations and read the survivor from what
+happened. **Team Shuffle** is different again: it makes team sizes as even as
+possible and balances the strength weights rather than pretending every possible
+split is equally good.
 
 ### Does tapping a particular card change what I get?
 
@@ -107,6 +137,13 @@ turn over too, so you can see the shuffle rather than take it on trust.
 Because that is what random looks like over a handful of picks. Nothing in
 Pickify avoids or favours a previous winner, and no mode remembers who won last
 time when making the next draw.
+
+### Why does Quick Generator not repeat the last result?
+
+When more than one answer is available, Quick Generator deliberately leaves out
+the immediately previous letter, number, emoji, or colour. Every other available
+answer has the same chance. This no-immediate-repeat rule applies only to Quick
+Generator, not to name-picking modes.
 
 ### Why does the card mode never repeat a card?
 
@@ -124,6 +161,13 @@ app. Your typed lists, by contrast, are saved per mode and come back.
 That is intentional. Each list-driven mode keeps its own list, because the names
 on the wheel are usually a lunch menu and the ones in the bowl are usually a
 class list. Save a list as a favourite if you want to reuse it elsewhere.
+
+### How do weights work in Team Shuffle?
+
+A weight from **1 to 5** represents a person's relative strength or experience.
+Pickify first keeps team sizes as even as possible, then searches for a split
+whose total weights are as close as possible. Leave everyone at the same weight
+for an ordinary random shuffle. Names and weights are saved only on your device.
 
 ## Prize cases
 
@@ -161,28 +205,46 @@ screen.
 
 ### Where do I see and equip what I have won?
 
-Skins are equipped from the skin picker inside each mode. Celebrations and win
-sounds are chosen in Pickify's settings, and their galleries show what you have
-won and what is still locked.
+The palette button on the home screen opens your skin collection; equip a skin
+from the picker inside the mode that wears it. Celebrations and win sounds are
+chosen in Pickify's settings, and their galleries show what you have won and what
+is still locked.
 
-### I reinstalled the app and my prizes are gone
+### I deleted or reinstalled the app and my prizes are gone
 
-Unlocked prizes are stored on your device only — there is no account and no
-iCloud sync — so deleting the app removes them. The unlock itself is tied to your
-Apple Account and comes back with **Restore Purchase**.
+Unlocked prizes are stored in the app's local data — there is no Pickify account
+or iCloud sync. Deleting the app normally removes them, although iOS may restore
+them when you restore a device backup that contains Pickify's app data. The paid
+unlock is separate: it is tied to your Apple Account and comes back with
+**Restore Purchase**.
 
 ## Settings and accessibility
 
 ### How do I turn off sounds, confetti, or vibration?
 
 All three are switches in Pickify's settings: **Sounds**, **Confetti**, and
-**Haptics**. Turning sounds off silences the app entirely, including win sounds.
+**Vibration**. Turning sounds off silences the app entirely, including win sounds.
 
 ### The animations are too fast, or too slow
 
-Settings has an **Animation speed** control, and a switch to turn result
-animations off altogether if you would rather go straight to the answer. Pickify
-also honours the system **Reduce Motion** setting.
+Settings has an **Animation speed** control that applies everywhere, and a separate
+switch for each mode, so you can go straight to the answer in the ones you use most
+while leaving the rest animated. Pickify also honours the system **Reduce Motion**
+setting, which turns result animations off in every mode regardless of those
+switches.
+
+### Can I change the colours or make the text larger?
+
+Yes. In settings, **Appearance** can follow the system or stay in Light or Dark
+mode. **Text Size** has four choices from Small through Bigger. These preferences
+apply throughout the app and are saved on your device.
+
+### Does Pickify work with VoiceOver?
+
+Yes. Every control is labelled, and each mode announces its result, so a round can
+be played and its winner heard without seeing the screen. Pickify also honours
+**Reduce Motion**, and its four text sizes work alongside the system's own text
+size settings.
 
 ### How do I change the language?
 
@@ -215,7 +277,7 @@ are genuinely read.
 
 Pickify is licensed under Apple's standard licence agreement for apps, the
 [Apple Standard End User License Agreement](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/).
-The trial and the unlock are sold by Apple and are additionally governed by the
+The unlock is sold by Apple and is additionally governed by the
 [Apple Media Services Terms and Conditions](https://www.apple.com/legal/internet-services/itunes/).
 
 ## Privacy Policy
