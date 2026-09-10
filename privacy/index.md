@@ -9,8 +9,9 @@
 Pickify does not collect or transmit the names, lists, results, settings, or game
 progress you use in the app. There is no Pickify server, analytics, advertising,
 tracking, or third-party SDK. Gameplay happens on your device. StoreKit
-communicates with Apple only to provide and verify the one-time unlock, and you
-can choose to leave the app through clearly labelled external links.
+communicates with Apple only to start the free trial and to provide and verify
+the one-time unlock, and you can choose to leave the app through clearly
+labelled external links.
 
 ## Who we are
 
@@ -79,15 +80,19 @@ from your device or sends anything from it.
 
 ## Purchases
 
-Pickify is free to download and opens completely for **3 days**. Those three days
-are not a subscription trial and nothing is charged for them; when they are up, a
-single one-time in-app purchase unlocks the app permanently. There is no
-subscription, nothing renews, and nothing inside the app costs extra afterwards. That purchase is
-processed entirely by **Apple** through the App Store. StoreKit communicates
+Pickify is free to download and includes a **3-day free trial** that you start
+yourself, by tapping **Start 3-Day Free Trial** on the app's unlock screen. The
+trial is a free item on the App Store: it costs nothing, nothing is charged for
+it, and it is not a subscription trial. When the three days are up, a single
+one-time in-app purchase unlocks the app permanently. There is no subscription,
+nothing renews, and nothing inside the app costs extra afterwards. Both the trial
+and the unlock are handled entirely by **Apple** through the App Store, and each
+one leaves a record on your Apple Account that Apple keeps. StoreKit communicates
 with Apple to retrieve the unlock's storefront price, check whether the current
-Apple Account owns it, read the app's original download date for the three free
-days, and complete or restore a purchase. We never receive your Apple Account
-credentials, payment details, card number, or billing address, and we do not
+Apple Account already holds the trial or the unlock, read the date the trial was
+started so the three days can be counted, and complete or restore a purchase.
+We never receive your Apple Account credentials, payment details, card number,
+or billing address, and we do not
 operate a purchase server. The StoreKit answers are used on the device to decide
 whether Pickify is unlocked and are not sent to us. Nothing renews and nothing
 is charged automatically. Apple's processing is covered by its
