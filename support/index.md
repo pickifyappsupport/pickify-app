@@ -6,7 +6,8 @@ Pickify is a private randomizer for iPhone and iPad with 19 ways to pick a name,
 split a team, play a quick game, or settle a decision. Its games run on your
 device, with no Pickify account, developer-operated server, advertising,
 analytics, or tracking. An internet connection is used only when Apple services
-are needed for the one-time unlock, and when you choose to open an external link.
+are needed to start the free trial or buy the one-time unlock, and when you
+choose to open an external link.
 
 ## Contact
 
@@ -42,19 +43,24 @@ landscape orientation on iPhone, and in all four orientations on iPad.
 
 ### Do I have to pay before I can try Pickify?
 
-No. The first **3 days are free and start on their own** — there is nothing to
-sign up for, nothing to tap, and no card involved. Install Pickify and the whole
-app is open: every mode, every setting, every prize case, nothing held back.
+No. Pickify is free to download and comes with **3 free days** — but they do not
+start on their own. The first thing the app shows is an unlock screen carrying a
+**Start 3-Day Free Trial** button. Tap it and the whole app opens: every mode,
+every setting, every prize case, nothing held back. The trial is a free item on
+the App Store, so it costs nothing and no card is involved.
 
-When those three days are up, Pickify shows an unlock screen. That screen is the
-front door rather than an advert you can dismiss — there is no cut-down free
-version behind it — and the app opens again as soon as you unlock it. If you have
-already bought Pickify, tap **Restore Purchase** on that same screen instead.
+That first screen is the front door rather than an advert you can dismiss —
+there is no cut-down free version behind it — and it tells you how long the trial
+runs and what the one-time unlock costs before you start. If you have already
+bought Pickify, tap **Restore Purchase** on that same screen instead.
+
+When the three days are up the unlock screen comes back, and the app opens again
+as soon as you unlock it.
 
 ### How much does Pickify cost?
 
-Pickify is free to download, and it opens completely for three days. After those
-days it takes a **single one-time in-app purchase** to unlock, and that payment is
+Pickify is free to download, and the 3-day trial costs nothing. After it ends it
+takes a **single one-time in-app purchase** to unlock, and that payment is
 the whole price: there is no subscription, no monthly fee, no second purchase, and
 nothing inside the app costs extra afterwards.
 
@@ -82,10 +88,11 @@ Apple Account you used to buy, then email us.
 
 ### I reinstalled Pickify — do I get another 3 days?
 
-No. The three days are counted from the date your Apple Account first downloaded
-Pickify, which Apple keeps, rather than from a date stored on the device — so
-deleting and reinstalling picks the same three days back up rather than starting
-new ones.
+No. The three days run from the moment you tapped **Start 3-Day Free Trial**, and
+that start is recorded against your Apple Account rather than on the device — so
+deleting and reinstalling, or signing in on another device, picks the same three
+days back up rather than starting new ones. If a reinstall does not pick up a
+trial that is still running, tap **Restore Purchase**.
 
 ### How do I get a refund?
 
@@ -97,7 +104,7 @@ Request one at [reportaproblem.apple.com](https://reportaproblem.apple.com).
 Yes. Pickify has no server, no analytics, no ads, and no third-party SDKs. It
 does not send your lists, results, settings, or prize progress anywhere. Its
 games work offline. StoreKit communicates with Apple to show the local price,
-check the one-time unlock and establish the three free days; Pickify does not
+start the free trial, and check or restore the one-time unlock; Pickify does not
 receive your Apple Account or payment details. See the [Privacy Policy](../privacy/)
 for full detail.
 
