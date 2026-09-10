@@ -1,13 +1,16 @@
 # Privacy Policy for Pickify
 
 **Effective date:** 6 September 2026
-**Last updated:** 6 September 2026
+
+**Last updated:** 10 September 2026
 
 ## The short version
 
-Pickify does not collect your data. There is no Pickify server, no analytics, no
-advertising, no tracking, and no third-party SDKs. The app makes no network
-requests at all. Everything you enter stays on your device.
+Pickify does not collect or transmit the names, lists, results, settings, or game
+progress you use in the app. There is no Pickify server, analytics, advertising,
+tracking, or third-party SDK. Gameplay happens on your device. StoreKit
+communicates with Apple only to provide and verify the one-time unlock, and you
+can choose to leave the app through clearly labelled external links.
 
 ## Who we are
 
@@ -22,24 +25,31 @@ Pickify is a randomizer: a wheel, dice, cards, and other ways to pick a name or
 settle a decision. The information you enter is stored on your device using
 iOS's standard app preferences storage. We never receive it.
 
-| What you enter | Where it lives | Do we see it? |
+| What Pickify stores | Primary storage | Sent automatically to us? |
 | --- | --- | --- |
-| Names and options you add to a list | On your device | No |
-| Saved lists and the mode you last used | On your device | No |
-| Skins, celebrations, and win sounds you have unlocked | On your device | No |
-| Your progress toward the next prize | On your device | No |
-| Language, sound, and haptics preferences | On your device | No |
+| Names, options, and favourite lists | On your device | No |
+| Team Shuffle member names and strength weights | On your device | No |
+| Home-screen mode order and Quick Generator number range | On your device | No |
+| Equipped and unlocked skins, celebrations, and win sounds | On your device | No |
+| Case-opening totals and prize progress | On your device | No |
+| Language, appearance, text-size, animation, confetti, and haptic preferences | On your device | No |
+| Any other per-mode game setting or switch you change | On your device | No |
 
-We do not collect, transmit, sell, rent, or share any of it, because the app has
-no capability to send it anywhere. Pickify makes no network requests to any
-server operated by us or by any third party.
+The app does not transmit any of this information to us or to another company.
+We do not collect, sell, rent, or share it. The StoreKit requests and external
+links described below do not include your lists, results, settings, or prize
+progress. Device backups are controlled by the operating system, not initiated
+by Pickify.
 
 ## No account, no sign-in, no cloud
 
-Pickify has no user accounts. There is nothing to register for, and the app never
-asks for your name, email address, phone number, or date of birth. It does not
-use iCloud, CloudKit, or any other sync service, so your lists exist only on the
-device where you typed them.
+Pickify has no user accounts and there is nothing to register for. It does not
+ask for an email address, phone number, date of birth, or any other account
+identity. Names you choose to type into randomizer lists or Team Shuffle remain
+local app data. Pickify does not use iCloud, CloudKit, or any other app-level
+sync service, so it does not sync your lists between devices. Your
+operating-system device backup may include Pickify's local app data if you have
+chosen to back up the app.
 
 ## Results history
 
@@ -69,18 +79,51 @@ from your device or sends anything from it.
 
 ## Purchases
 
-Pickify is a paid app. It is locked when you first open it, and the first screen
-offers a free 3-day trial; after the trial, a single one-time purchase unlocks
-the app permanently. Both the trial and the unlock are processed entirely by
-**Apple** through the App Store. We never receive your payment details, card
-number, or billing address. Pickify only asks Apple whether the current Apple
-Account owns the trial or the unlock, and when the trial was started, so it knows
-whether to unlock the app; that answer comes from Apple and is never sent
-anywhere by us. Nothing renews and nothing is charged automatically. Purchases
-are governed by the
+Pickify is free to download and opens completely for **3 days**. Those three days
+are not a subscription trial and nothing is charged for them; when they are up, a
+single one-time in-app purchase unlocks the app permanently. There is no
+subscription, nothing renews, and nothing inside the app costs extra afterwards. That purchase is
+processed entirely by **Apple** through the App Store. StoreKit communicates
+with Apple to retrieve the unlock's storefront price, check whether the current
+Apple Account owns it, read the app's original download date for the three free
+days, and complete or restore a purchase. We never receive your Apple Account
+credentials, payment details, card number, or billing address, and we do not
+operate a purchase server. The StoreKit answers are used on the device to decide
+whether Pickify is unlocked and are not sent to us. Nothing renews and nothing
+is charged automatically. Apple's processing is covered by its
+[App Store & Privacy](https://www.apple.com/legal/privacy/data/en/appstore/)
+notice. Purchases are governed by the
 [Apple Media Services Terms and Conditions](https://www.apple.com/legal/internet-services/itunes/),
 and use of the app itself by Apple's
 [Standard End User License Agreement](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/).
+
+## Support communications
+
+If you email us for support, we receive your email address, your message, and any
+device, app-version, screenshot, or other information you choose to include. We
+use it only to respond, investigate the issue, and improve Pickify. Do not send
+information that is not needed for your request.
+
+Where the GDPR or UK GDPR applies, we handle support mail on the basis of our
+legitimate interest in answering the people who write to us and in fixing the
+problems they report. There is no other processing to find a basis for, because
+Pickify sends us nothing on its own.
+
+Support email is optional and happens outside Pickify. It is processed by your
+email provider and by Google, which hosts our support mailbox, under the
+[Google Privacy Policy](https://policies.google.com/privacy). Google's mail
+servers are located in the United States, so a support message you send us is
+processed there. We keep support messages for up to 24 months, and longer only
+where a legal, security, or record-keeping obligation requires it. You may ask us
+to delete your support correspondence by emailing the address below.
+
+## External links
+
+Pickify can open its privacy policy, Apple's terms, and the App Store review page
+when you tap the corresponding button. The support page also links to Apple's
+refund service. Those destinations handle your visit under their own privacy
+policies. Pickify does not add your lists, results, or a Pickify user identifier
+to those links.
 
 ## Prize cases
 
@@ -93,7 +136,7 @@ the next one is recorded on your device only.
 
 To be explicit, Pickify does **not**:
 
-- collect or transmit any of your data to us
+- collect or transmit your in-app lists, results, settings, or game progress to us
 - use analytics, crash reporting, or telemetry services
 - include advertising or advertising identifiers
 - track you across apps or websites, or share data with data brokers
@@ -106,11 +149,15 @@ Pickify's App Store privacy label reflects this: **Data Not Collected**.
 
 ## Data retention and deletion
 
-Because we hold none of your data, there is nothing for us to retain or delete.
+**To delete Pickify's local data:** delete the app from your device. This removes
+its lists, preferences, local game progress, and unlocked prizes from that
+device. Pickify itself keeps no server copy. iCloud or computer device backups
+are controlled separately by you and Apple and may still contain app data; Apple
+explains how to [manage iCloud backups](https://support.apple.com/en-us/108922).
 
-**To delete everything:** delete the app from your device. All lists,
-preferences, and unlocked prizes are removed with it. Since nothing is synced to
-iCloud or held on any server, no copy survives anywhere.
+Support emails are separate from app data. You may request deletion of support
+correspondence as described above, subject to any information we must retain for
+legal, security, or record-keeping reasons.
 
 ## Your rights
 
@@ -119,10 +166,11 @@ CCPA/CPRA, or similar laws — including the right to access, correct, export, o
 delete your personal data, and the right not to be discriminated against for
 exercising them.
 
-Pickify is designed so you exercise these rights directly: your data is on your
-own device, under your control at all times. We hold no copy, so we cannot
-produce, amend, or erase one on your behalf. We do not sell or share personal
-information, and we have never done so.
+For information created inside Pickify, you exercise these rights directly: the
+data is stored in the app's local container and we hold no copy that we can
+produce, amend, or erase on your behalf. For support correspondence that you
+sent us, contact us to request access, correction, or deletion. We do not sell or
+share personal information for advertising, and we have never done so.
 
 If you believe we have not met our obligations, you may contact us at the address
 above, and you have the right to lodge a complaint with your local data
@@ -130,12 +178,13 @@ protection authority.
 
 ## Children
 
-Pickify is rated 4+ and is suitable for use by children, including in classrooms
-and at home. It does not knowingly collect any information from anyone, including
-children under 13 (or the equivalent minimum age in your country). Since the app
-collects no data at all and makes no network requests, no such information can be
-transmitted to us or to anyone else. There is no chat, no sharing, no social
-feature, and no advertising through which a child could be reached.
+Pickify is rated 4+ and is designed to be family-friendly. It is a general-audience
+app rather than one directed at children, and it works equally well with a group of
+any age. The app does not knowingly collect personal information from anyone,
+including children under 13 (or the equivalent minimum age in their country).
+It does not transmit the names or other text entered into its games. There is no
+chat, sharing, social feature, or advertising through which a child could be
+reached. A parent or guardian should send any support email on a child's behalf.
 
 ## Changes to this policy
 
