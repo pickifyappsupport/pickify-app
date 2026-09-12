@@ -240,18 +240,16 @@ while leaving the rest animated. Pickify also honours the system **Reduce Motion
 setting, which turns result animations off in every mode regardless of those
 switches.
 
-### Can I change the colours or make the text larger?
+### Can I change the colours?
 
-Yes. In settings, **Appearance** can follow the system or stay in Light or Dark
-mode. **Text Size** has four choices from Small through Bigger. These preferences
-apply throughout the app and are saved on your device.
+Yes. In settings, **Appearance** starts in Light and can stay in Dark or follow the
+system instead. The preference applies throughout the app and is saved on your device.
 
 ### Does Pickify work with VoiceOver?
 
 Yes. Every control is labelled, and each mode announces its result, so a round can
 be played and its winner heard without seeing the screen. Pickify also honours
-**Reduce Motion**, and its four text sizes work alongside the system's own text
-size settings.
+**Reduce Motion**.
 
 ### How do I change the language?
 
