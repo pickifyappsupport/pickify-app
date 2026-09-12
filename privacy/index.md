@@ -2,7 +2,7 @@
 
 **Effective date:** 6 September 2026
 
-**Last updated:** 10 September 2026
+**Last updated:** 11 September 2026
 
 ## The short version
 
@@ -33,7 +33,7 @@ iOS's standard app preferences storage. We never receive it.
 | Home-screen mode order and Quick Generator number range | On your device | No |
 | Equipped and unlocked skins, celebrations, and win sounds | On your device | No |
 | Case-opening totals and prize progress | On your device | No |
-| Language, appearance, text-size, animation, confetti, and haptic preferences | On your device | No |
+| Language, appearance, animation, confetti, and haptic preferences | On your device | No |
 | Any other per-mode game setting or switch you change | On your device | No |
 
 The app does not transmit any of this information to us or to another company.
